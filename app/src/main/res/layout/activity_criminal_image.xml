@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="224dp"
+            android:layout_height="245dp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/whatsapp_image_2022_06_19_at_5_57_24_pm" />
+
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter The Criminal Name or Crime Scene Address"
+
+
+            android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+
+        android:hint="Enter Criminal Crime"
+        android:layout_below="@+id/edtName"
+        android:layout_marginTop="10dp"
+       />
+
+
+
+
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:text="Choose image" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="10dp"
+
+
+            android:text="Add Image" />
+
+        <Button
+        android:id="@+id/btnList"
+        android:text="Criminal List"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="10dp"
+       />
+    </LinearLayout>
+</LinearLayout>

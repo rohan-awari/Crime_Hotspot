@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.police">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Police">
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".PliceLogin"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FindCriminal"
+            android:exported="false" />
+        <activity
+            android:name=".CriminalFaceRecognization"
+            android:exported="false" />
+        <activity
+            android:name=".PredictionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchCriminalbyArea"
+            android:exported="false" />
+        <activity
+            android:name=".CriminalModule"
+            android:exported="false" />
+        <activity
+            android:name=".SearchCriminalbyname"
+            android:exported="false" />
+        <activity
+            android:name=".Viewcriminaldetials"
+            android:exported="false" />
+        <activity
+            android:name=".ViewCriminal"
+            android:exported="false" />
+        <activity
+            android:name=".StatuShow"
+            android:exported="false" />
+        <activity
+            android:name=".ViewComplaint"
+            android:exported="false" />
+        <activity
+            android:name=".Complaintsts"
+            android:exported="false" />
+        <activity
+            android:name=".CrimeImage"
+            android:exported="false" />
+        <activity
+            android:name=".Signin"
+            android:exported="false" />
+        <activity
+            android:name=".AddCriminal"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintRegister"
+            android:exported="false" />
+        <activity
+            android:name=".FreindHomepage"
+            android:label="Home Activity" />
+        <activity
+            android:name=".Login"
+            android:label="Login" />
+        <activity
+            android:name=".PoliceHomePage"
+            android:label="Home Activity" />
+        <activity android:name=".FoodList" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

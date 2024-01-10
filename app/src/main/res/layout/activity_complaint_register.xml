@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complaint Details"
+            android:textSize="20dp"
+            android:textColor="@color/red"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complaint Number"
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/txt_cid"
+            android:layout_width="match_parent"
+            android:background="@drawable/edit_text_bottom"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:enabled="false"
+             android:textColor="@color/black"
+            android:textStyle="bold"
+
+            android:maxLines="2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Today's Date"
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+
+        <EditText
+            android:id="@+id/txt_cdate"
+            android:layout_width="match_parent"
+            android:background="@drawable/edit_text_bottom"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:enabled="false"
+            android:textStyle="bold"
+            android:maxLines="2"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Name of the Complainant"
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_cname"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:background="@drawable/edit_text_bottom"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Select Police Station"
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_bottom"
+            android:layout_marginTop="10dp"
+            android:id="@+id/spin_item"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Name of the accused"
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_caccsud"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bottom"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Enter Complaint "
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_cdetails"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bottom"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applican't Details"
+            android:textSize="20dp"
+            android:textColor="@color/red"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Applican't Address"
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_cadd"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bottom"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Applican't Age"
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_cage"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:maxLength="10"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bottom"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Applican't Aadhar Card Number"
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_cadhar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:maxLength="12"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bottom"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Applican't Contact Number"
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_cmobile"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:maxLength="10"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:background="@drawable/edit_text_bottom"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Relationship of Accused"
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_crelation"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_bottom"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="1dp"
+                android:text="Active"
+                android:layout_gravity="center"
+                android:id="@+id/txt_actives"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="1dp"
+                android:layout_gravity="center"
+                android:text="Complete"
+                android:id="@+id/txt_completesss"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Register "
+            android:background="@drawable/button"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
